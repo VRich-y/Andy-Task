@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@800&family=DM+Sans:wght@400;500;700&family=Nunito:wght@300&family=Poppins:wght@200;300;500;600;700;800;900&family=Righteous&family=Roboto&family=Sarala:wght@400;700&family=Barlow:wght@100;200;300;400&family=Dosis:wght@200;300;400;500&family=Quicksand:wght@300;400&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.principal {
+    width: 100%; 
+    height: 800px;
+    background: linear-gradient(158deg, rgba(0, 46, 140, 232), rgba(0, 46, 140, 0) 70.71%),
+                linear-gradient(97deg, rgba(226,125,218,255), rgba(226,125,218,0) 70.71%),
+                linear-gradient(360deg, rgba(251,174,49,255), rgba(193,142,164,255) 70.71%);
+    border-radius: 0px 0px 80px 80px;
+    color: #ffffff;
+}
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 135px;
+}
+.navegação {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    font-family: DM Sans;
+    color: #ffffff;
+    padding-right: 382px;
+}
+.navegação a{
+    padding: 6px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.navegação a:hover{
+    background-color: #ffffff45;
+    border-radius: 5px;
+}
+.botões-conta button{
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: none;
+    font-family: DM Sans;
+    cursor: pointer;
+}
+.botão-1 {
+    background-color: #ffffff;
+}
+.botão-1:hover{
+    background-color: #d4d4d4;
+}
+.botão-2 {
+    color: #FFFFFF;
+    background-color: #F7B731;
+}
+.botão-2:hover{
+    background-color: #d09a26;
+}
+.texto-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.texto-1 h1 {
+    padding-top: 42px;
+    padding-bottom: 18px;
+    display: flex;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 66px;
+}
+.texto-1 p {
+    font-family: DM Sans;
+    display: flex;
+    text-align: center;
+}
+.botões-download {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    padding-top: 32px;
+    padding-bottom: 52px;
+}
+.screen {
+    display: flex;
+    justify-content: center;
+}
+
+/*Logo brands*/
+
+.brands {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 412px;
+    font-family: DM Sans;
+    color: #666666;
+    gap: 24px;
+}
+
+/*segunda seção*/
+
+.seção-2 {
+    display: flex;
+    justify-content: center;
+    padding: 140px 0px 140px 0px;
+}
+
+/*primeira propaganda*/
+
+.propaganda-1 {
+    width: 1170px;
+    height: 1600px;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.odio {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px;
+}
+.caixa-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 470px;
+    height: 629px;
+}
+.caixa-1 img {
+    position: absolute;
+    width: 294px;
+    height: 594px;
+    z-index: 1;
+}
+.background-1 {
+    width: 470px;
+    height: 358px;
+    border-radius: 20px;
+    background: linear-gradient(120.98deg, #70B6FF 0%, #FFC6F3 58.06%, #8F83F7 87.28%);
+    position: relative;
+    margin-top: 346px;
+}
+.customize {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.customize h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 50px;
+}
+.customize p {
+    font-family: DM Sans;
+    color: #666666;
+    font-size: 16px;
+    line-height: 26px;
+}
+.checklist-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 11px;
+}
+.checks-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    height: 92px;
+    width: 22px;
+}
+.lista-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.lista-1 p {
+    font-size: 15px;
+}
+
+/*segunda propaganda*/
+
+.odio-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 100px;
+    padding: 30px 100px 100px 100px;
+}
+.caixa-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 470px;
+    height: 629px;
+}
+.caixa-2 img {
+    position: absolute;
+    width: 294px;
+    height: 594px;
+    z-index: 1;
+}
+.background-2 {
+    width: 470px;
+    height: 358px;
+    border-radius: 20px; 
+    background: linear-gradient(120.12deg, #FF8FE8 0%, #FFC960 87.28%);
+    position: relative;
+    margin-top: 346px;
+}
+.stay {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.stay h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 50px;
+}
+.stay p {
+    font-family: DM Sans;
+    color: #666666;
+    font-size: 16px;
+    line-height: 26px;
+}
+.checklist-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 11px;
+}
+.checks-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    height: 92px;
+    width: 22px;
+    padding-top: 17px;
+}
+.lista-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.lista-2 p {
+    font-size: 15px;
+}
+
+/*terceira seção*/
+
+.seção-3 {
+    display: flex;
+    justify-content: center;
+}
+.retangulo {
+    background-image: url(./images/BG.png);
+    width: 1170px;
+    height: 597px;
+    display: flex;
+    justify-content: center;
+}
+.how {
+    display: flex;
+    color: white;
+    padding: 55px 0px 52px 100px;
+}
+.how h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 46px;
+}
+.ordem {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    gap: 22px;
+}
+.numbers {
+    display: flex;
+    flex-direction: column;
+    width: 56px;
+    height: 56px;
+    gap: 66px;
+}
+.instalar {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: white;
+}
+.instalar h4 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 26px;
+}
+.instalar p {
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 26px;
+}
+.instalar div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.imagem {
+    width: 500px;
+    height: 486px;
+    margin: 67px 100px 44px 90px;
+}
+
+/*quarta seção*/
+.quadrados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    gap: 44px;
+}
+.quad-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 1170px;
+    height: 590px;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    padding-top: 56px;
+}
+.titulo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.quad-1 h4 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 50px;
+}
+.voce-pode {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 32px;
+}
+.quad-1 p {
+    font-family: Dm Sans;
+}
+.veja {
+    color: #F7B731;
+}
+
+/*lallaa*/
+
+.quad-2e3 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.quad-2e3 div {
+    width: 570px;
+    height: 656px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+}
+.first h4 {
+    margin-bottom: 16px;
+}
+.second h4{
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+.quad-2e3 h4 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+}
+.destaque-1{
+    color: #46AAF2;
+}
+.destaque-2 {
+    color:#11AC84;
+}
+.quad-2e3 p {
+    font-family: DM Sans;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*quinta seção*/
+
+.seção-5 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+.download {
+    width: 1170px;
+    height: 484px;
+    background-color: #F7B731;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.download h5 {
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+}
+.download p {
+    margin-top: 8px;
+    color: white;
+    font-family: DM Sans;
+    font-size: 16px;
+}
+.botoes-download-quinto {
+    padding-top: 28px;
+}
+.setas {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 65px;
+    padding-top: 15px;
+}
